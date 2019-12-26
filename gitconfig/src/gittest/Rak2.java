@@ -10,10 +10,10 @@ import org.openqa.selenium.io.FileHandler;
 
 public class Rak2 {
 
-	public static void main(String[] args)throws Exception
+	public static void main(String[] args) throws Exception
 	
 	{
-		// 
+		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "d://chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
@@ -65,6 +65,8 @@ public class Rak2 {
 		Thread.sleep(5000);
 		//close site
 		driver.close();
+		
+
 	}
 
 }
