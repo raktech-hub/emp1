@@ -62,9 +62,7 @@ public class Rak2 {
 		driver.findElement(By.xpath("//*[starts-with(@aria-label,'Google Account')]/child::span")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.linkText("Sign out")).click();
-		Thread.sleep(5000);
-		//close site
-		driver.close();
+		
 		
 
 	}
